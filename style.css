@@ -1,0 +1,21 @@
+
+p{
+font-family:Arial;
+text-align:right;
+}
+button{
+	background-color:yellow;
+	height: 40px;
+	width: 40px;
+	border:none;
+	border-radius: 8px;
+	margin:3px;
+} 
+.clear{ 
+	width: 130px; 
+} 
+.result{ 
+	background-color:red;    
+	width: 200px; 
+	height:20px; 
+}
