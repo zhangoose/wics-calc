@@ -1,0 +1,16 @@
+.box{
+	height: 50px;
+	width: 50px;
+	display:inline-block;
+	/*float:left;*/
+}
+
+#red{
+	background-color:red;
+}
+#yellow{
+	background-color:yellow;
+}
+#green{
+	background-color:green;
+}
