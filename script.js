@@ -4,7 +4,15 @@ var ops = "+*-/",
 			valids = "0123456789.";
 var ops_delims = /\*|\+|-|\//,
 		num_delims = /1|2|3|4|5|6|7|8|9|0|\./;
+var colors = ['#ffd1dc', '#ff6961', '#f49ac2', '#779ecb', '#fdfd96', '#ffb347', '#cb99c9', '#77dd77'];
 
+var color2 = colors[Math.floor(Math.random()*colors.length)];
+var color1 = colors[Math.floor(Math.random()*colors.length)];
+while(color2 == color1) color2 = colors[Math.floor(Math.random()*colors.length)];
+
+$("#board").css("background-color",color1);
+$("body").css("background-color",color1);
+$("button").css("background-color",color2);
 
 function calculate(displayText){
 	var numbers_arr = displayText.split(ops_delims);
